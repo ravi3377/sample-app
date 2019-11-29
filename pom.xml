@@ -4,7 +4,7 @@
 	<groupId>in.mpcechno</groupId>
 	<artifactId>ravi</artifactId>
 	<packaging>war</packaging>
-	<version>0.0.35</version>
+	<version>0.0.35-SNAPSHOT</version>
 	<name>my-app</name>
 	<url>http://maven.apache.org</url>
 	<properties>
@@ -32,13 +32,13 @@
 		 <snapshotRepository>
 		    <id>nexus</id>
 		    <name>Internal Snapshot Releases</name>	 
-		    <url>http://13.232.49.187:8081/repository/sampleapp-snapshot/</url>
+		    <url>http://54.152.233.183:8081/repository/sampleapp/</url>
 		 </snapshotRepository>
 		
 		<repository>
 		    <id>nexus</id>
 		    <name>Internal Releases</name>
-		    <url>http://13.232.49.187:8081/repository/sampleapp-release/</url>
+		    <url>http://54.152.233.183:8081/repository/sampleapp-release/</url>
 		</repository>
   	</distributionManagement>
 	
