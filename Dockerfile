@@ -1,2 +1,2 @@
-FROM tomcat9:0.0.0
+FROM tomcat:latest
 COPY target/*.war /usr/local/tomcat/webapps/sampleapp.war
